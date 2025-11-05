@@ -21,23 +21,25 @@
     >
       Error: Missing URL parameters. Please scan the QR code from the app again.
     </div>
-    <button
-      class="inline-block px-6 py-3 m-2 text-base text-white no-underline transition-colors duration-200 bg-blue-500 border-none rounded-lg cursor-pointer hover:bg-blue-700"
-      @click="copyAddress"
-    >
-      {{ isCopied ? 'Copied!' : 'Copy Server Address' }}
-    </button>
+    <div class="flex justify-center">
+      <button
+        class="px-6 py-3 m-2 text-base text-white no-underline transition-colors duration-200 bg-blue-500 border-none rounded-lg cursor-pointer hover:bg-blue-700"
+        @click="copyAddress"
+      >
+        {{ isCopied ? 'Copied!' : 'Copy Server Address' }}
+      </button>
+    </div>
 
     <div class="">
       <a
-        href="https://www.icloud.com/shortcuts/19ad1427410e49b98117afe91607081b"
-        class="inline-block px-6 py-3 m-2 text-base text-white no-underline transition-colors duration-200 bg-green-500 border-none rounded-lg cursor-pointer hover:bg-green-600"
-        >Open Shortcut</a
-      >
-      <a
-        href="shortcuts://run-shortcut?name=Import%20Testing"
+        href="shortcuts://run-shortcut?name=Import%20toPhotos"
         class="inline-block px-6 py-3 m-2 text-base text-white no-underline transition-colors duration-200 bg-green-500 border-none rounded-lg cursor-pointer hover:bg-green-600"
         >Run Shortcut</a
+      >
+      <a
+        href="https://www.icloud.com/shortcuts/a3c7ea48a0b14f148d9cc83a9e646509"
+        class="inline-block px-6 py-3 m-2 text-base text-white no-underline transition-colors duration-200 bg-green-500 border-none rounded-lg cursor-pointer hover:bg-green-600"
+        >Import and Run Shortcut</a
       >
     </div>
   </div>
@@ -63,5 +65,9 @@ function copyAddress() {
   const address = `http://${local}:${port}/${jsonFile}`;
 
   copy(address);
+  isCopied.value = true;
+  setTimeout(() => {
+    isCopied.value = false;
+  }, 2000);
 }
 </script>
