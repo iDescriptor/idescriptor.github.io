@@ -32,7 +32,7 @@
 
     <div class="">
       <a
-        href="shortcuts://run-shortcut?name=Import%20toPhotos"
+        href="shortcuts://run-shortcut?name=Import%20to%20Photos"
         class="inline-block px-6 py-3 m-2 text-base text-white no-underline transition-colors duration-200 bg-green-500 border-none rounded-lg cursor-pointer hover:bg-green-600"
         >Run Shortcut</a
       >
