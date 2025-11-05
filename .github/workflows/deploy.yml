@@ -28,12 +28,12 @@ jobs:
         run: bun install
 
       - name: Build
-        run: bun run build
+        run: bun run nuxt generate
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: .output/public
 
   deploy:
     needs: build

@@ -12,7 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/* 
 a {
   font-weight: 500;
   color: #646cff;
@@ -63,7 +63,7 @@ button:focus-visible {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -76,4 +76,13 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+#__nuxt {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
 }
