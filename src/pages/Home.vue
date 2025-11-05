@@ -4,10 +4,6 @@
   </div>
 </template>
 
-<script lang="ts" setup>
-// Home page - welcome screen
-</script>
-
 <style scoped>
 .container {
   border-radius: 12px;
