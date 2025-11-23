@@ -7,12 +7,10 @@
       <ol class="list-decimal list-inside">
         <li>Copy the server address below</li>
         <li>
-          Click on run shortcut if you have not installed the shortcut or click
-          on open shortcut if you have already installed it
+          Click on 'Import and Run Shortcut' if you have not installed the
+          shortcut or click on 'Run Shortcut' if you have already installed it
         </li>
-        <li>
-          Run the shortcut it will import whatever you selected from the App
-        </li>
+        <li>Shortcut will import whatever you selected from the App</li>
       </ol>
     </div>
     <div
