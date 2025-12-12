@@ -6,11 +6,13 @@
         >A free, open-source, and cross-platform iDevice management tool
       </span>
     </div>
-    <img
+    <Img
+      aspectRatio="529/389"
+      maxWidth="1058px"
       src="https://github.com/iDescriptor/iDescriptor/blob/main/resources/repo/crossplatform.png?raw=true"
     />
 
-    <div class="flex flex-wrap justify-center gap-2 mt-4">
+    <div class="flex flex-wrap justify-center gap-2 mt-4 w-[95vw]">
       <a href="https://github.com/iDescriptor/iDescriptor/blob/main/LICENSE">
         <img
           alt="GitHub"
@@ -60,12 +62,31 @@
         />
       </a>
     </div>
-    <a
-      href="https://github.com/iDescriptor/iDescriptor/releases/latest"
-      class="inline-block px-6 py-3 m-4 text-base text-white no-underline transition-colors duration-200 bg-blue-500 border-none rounded-lg cursor-pointer hover:bg-blue-700"
-      >Get iDescriptor</a
-    >
+
+    <div class="flex justify-center mt-6">
+      <a
+        href="https://github.com/iDescriptor/iDescriptor/releases/latest"
+        class="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md border border-neutral-200 bg-transparent px-6 font-medium transition-all duration-100 [box-shadow:5px_5px_rgb(82_82_82)] hover:translate-x-[3px] hover:translate-y-[3px] hover:[box-shadow:0px_0px_rgb(82_82_82)] max-w-fit"
+      >
+        Get iDescriptor
+      </a>
+    </div>
     <div class="mt-[30rem]">//TODO</div>
   </div>
 </template>
 <style></style>
+
+<script setup lang="ts">
+import Img from '~/components/img.vue';
+
+useHead({
+  title: 'iDescriptor',
+  meta: [
+    {
+      name: 'description',
+      content:
+        'A free, open-source, and cross-platform iDevice management tool',
+    },
+  ],
+});
+</script>
