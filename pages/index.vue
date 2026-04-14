@@ -99,6 +99,13 @@ import Img from '~/components/img.vue';
 
 useHead({
   title: 'iDescriptor',
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: '/favicon.ico',
+    },
+  ],
   meta: [
     {
       name: 'description',
