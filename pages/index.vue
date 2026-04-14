@@ -2,10 +2,24 @@
   <div class="flex flex-col">
     <div class="flex flex-col items-center justify-center gap-2">
       <h1 class="text-3xl font-bold">iDescriptor</h1>
-      <span
-        >A free, open-source, and cross-platform iDevice management tool
-      </span>
+      <div>
+        Cross-platform, open-source and free idevice management tool written in
+        Rust
+        <img
+          class="inline-flex items-center gap-1"
+          src="https://rustacean.net/assets/rustacean-orig-noshadow.svg"
+          width="25"
+        />
+        and Qt
+      </div>
     </div>
+    <h1 class="text-2xl font-bold m-auto mt-10">Win 11</h1>
+    <Img
+      aspectRatio="529/389"
+      maxWidth="1058px"
+      src="https://github.com/iDescriptor/iDescriptor/blob/main/resources/repo/win-11-mica-dark.png?raw=true"
+    />
+    <h1 class="text-2xl font-bold m-auto mt-10">Other Platforms</h1>
     <Img
       aspectRatio="529/389"
       maxWidth="1058px"
@@ -44,6 +58,7 @@
         alt="Platform"
         src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue.svg"
       />
+      <img src="https://shields.io/badge/-Rust-3776AB?style=flat&logo=rust" />
       <img
         alt="Language"
         src="https://img.shields.io/badge/C++-20-hotpink.svg"
@@ -71,6 +86,9 @@
         Get iDescriptor
       </a>
     </div>
+
+    <LatestReleaseNotes class="m-auto mt-[5rem]" />
+
     <div class="mt-[30rem]">//TODO</div>
   </div>
 </template>
