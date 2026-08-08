@@ -17,13 +17,20 @@
     <Img
       aspectRatio="529/389"
       maxWidth="1058px"
-      src="https://github.com/iDescriptor/iDescriptor/blob/main/resources/repo/win-11-mica-dark.png?raw=true"
+      src="https://github.com/iDescriptor/iDescriptor/blob/main/resources/repo/win.dark.acrylic.png?raw=true"
     />
-    <h1 class="text-2xl font-bold m-auto mt-10">Other Platforms</h1>
+    <h1 class="text-2xl font-bold m-auto mt-10">MacOS</h1>
     <Img
       aspectRatio="529/389"
       maxWidth="1058px"
-      src="https://github.com/iDescriptor/iDescriptor/blob/main/resources/repo/crossplatform.png?raw=true"
+      src="https://github.com/iDescriptor/iDescriptor/blob/main/resources/repo/macos.png?raw=true"
+    />
+
+    <h1 class="text-2xl font-bold m-auto mt-10">Linux</h1>
+    <Img
+      aspectRatio="529/389"
+      maxWidth="1058px"
+      src="https://github.com/iDescriptor/iDescriptor/blob/main/resources/repo/linux.gnome.custom.png?raw=true"
     />
 
     <div class="flex flex-wrap justify-center gap-2 mt-4 w-[95vw]">
